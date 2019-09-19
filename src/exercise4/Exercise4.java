@@ -14,9 +14,10 @@ public class Exercise4 {
     public static void main(String[] args) {
         Rectangle shape = new Rectangle ();
         shape.Rectangle(1.0f, 1.0f);
-        shape.toString();
-        System.out.print(shape);
-        
+        System.out.println(shape.toString());
+        Circle shape1 = new Circle();
+        shape1.Circle(1.0);
+        System.out.println(shape1.toString());
     }
     
 }
