@@ -28,7 +28,7 @@ public class Circle {
     }
     public double getArea (){
         double area;
-        area = Math.PI* Math.pow(this.getRadius(), this.getRadius());
+        area = Math.PI* Math.pow(this.getRadius(), 2);
         return area;
     }
     public double getCircumference(){
