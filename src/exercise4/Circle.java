@@ -17,8 +17,8 @@ public class Circle {
     public Circle(){
         
     }
-    public void Circle (double radius){
-        this.setRadius(radius);
+    public Circle (double radius){
+        this.radius = radius;
     }
     public double getRadius (){
         return radius;
@@ -28,7 +28,7 @@ public class Circle {
     }
     public double getArea (){
         double area;
-        area = Math.PI* Math.pow(this.getRadius(), 2);
+        area = Math.PI* Math.pow(this.radius, 2);
         return area;
     }
     public double getCircumference(){
@@ -37,6 +37,6 @@ public class Circle {
         return circum;
     }
     public String toString(){
-        return "Circle[radius = "+this.getRadius()+"]";
+        return "Circle[radius = "+this.radius+"]";
     }
 }

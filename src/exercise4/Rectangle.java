@@ -16,9 +16,9 @@ public class Rectangle {
     public Rectangle (){
         
     }
-    public void Rectangle (float length, float width){
-        this.setLength(length);
-        this.setWidth(width);
+    public Rectangle (float length, float width){
+        this.length = length;
+        this.width = width;
     }
     public float getLength (){
         return length;
@@ -38,7 +38,7 @@ public class Rectangle {
         return area;
     }
     public double getPerimeter (){
-        double perimeter = 2*this.getLength() + 2*this.getWidth();
+        double perimeter = 2*this.length + 2*this.width;
         return perimeter;
     }
     public String toString(){
